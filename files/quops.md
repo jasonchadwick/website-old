@@ -1,4 +1,4 @@
-[← back to home](/)
+[← back to home](/README.md)
 
 # Quops: A board game inspired by quantum mechanics
 
