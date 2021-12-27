@@ -1,3 +1,5 @@
+[← back to home](https://jasonchadwick.github.io)
+
 # Quops: A board game inspired by quantum mechanics
 
 Quops (short for "quantum operations") is a board game where the board and cards are based on the rules of quantum mechanics. The goal is 
