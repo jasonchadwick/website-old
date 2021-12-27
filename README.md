@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Jason Chadwick
+## B.S. Physics, CMU 2022
+## PhD Quantum Computing, UChicago (expected 2026)
 
 You can use the [editor on GitHub](https://github.com/jasonchadwick/jasonchadwick.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
