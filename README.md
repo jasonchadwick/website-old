@@ -39,6 +39,8 @@ My resume is [here](/files/resume.pdf).
 
 ---
 
+[Github](https://github.com/jasonchadwick/)
+
 [LinkedIn](https://linkedin.com/in/jasonchadwick)
 
 [Google Scholar](https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en)
