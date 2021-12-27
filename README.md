@@ -2,13 +2,15 @@
 
 *Contact: jasoncha (at) andrew.cmu.edu*
 
-I am a fourth-year undergraduate at Carnegie Mellon University, majoring in physics and minoring in computer science. My interests include applied physics, quantum computing, video game design, plants and guitar.
+I am a fourth-year undergraduate at Carnegie Mellon University, majoring in physics and minoring in computer science. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
 
 ### Projects
 
 ---
 
-[**chronodrifter**](https://github.com/jasonchadwick/chronodrifter): a 2D puzzle game where the player can change the direction of time. Hoping to publish as a standalone game sometime in the future, and potentially make a 3D version afterwards. Live WebGL game at [jasonchadwick.github.io/chronodrifter](https://jasonchadwick.github.io/chronodrifter).
+[**chronodrifter**](https://github.com/jasonchadwick/chronodrifter): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future, and potentially make a 3D version afterwards. Live WebGL game at [jasonchadwick.github.io/chronodrifter](https://jasonchadwick.github.io/chronodrifter), and more info [here](/files/chronodrifter.md).
+
+[**quops**](https://github.com/jasonchadwick/quops-game): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. More info [here](/files/quops.md).
 
 ### Publications
 
