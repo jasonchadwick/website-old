@@ -16,7 +16,7 @@ I am a fourth-year undergraduate at Carnegie Mellon University majoring in physi
 
 [**quops**](/files/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. Currently not released anywhere, but I plan to in the future after polishing it more.
 
-[**optimal pulse control**](/files/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. These pulses determine how much time it takes to apply certain quantum logic gates. I found pulses that allow for high-radix gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
+[**quantum optimal control**](/files/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. These pulses determine how much time it takes to apply certain quantum logic gates. I found pulses that allow for high-radix gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
 
 [**neural network for fusion plasma prediction**](/files/fusion.md) (summer 2020 research): created a neural network using TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems. Orders of magnitude faster than existing physics-based simulation code while maintaining high accuracy.
 
@@ -38,7 +38,7 @@ M.D. Boyer, **J. Chadwick** 2021. *Prediction of electron density and pressure p
 
 I have worked on personal and academic projects in:
 
-- **Julia**: [optimal pulse control](/files/pulses.md).
+- **Julia**: [quantum optimal control](/files/pulses.md).
 - **Unity/C#**: [chronodrifter](/files/chronodrifter.md), quops - graphical edition *(coming soon)* .
 - **Python**: [quops](/files/quops.md), [reddit-stocks](/files/stocks.md).
 - **C**: various projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
