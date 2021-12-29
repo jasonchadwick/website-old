@@ -1,4 +1,4 @@
-[← back to home](../main.md)
+[← back to home](../index.md)
 
 # Quantum optimal control for high radix computation
 
@@ -51,4 +51,4 @@ In general, qudits are expected to be more error-prone than qubits since they oc
 
 We are also designing a transpiler that will take in qubit circuits and output mixed-radix circuits that selectively use ququarts in place of qubits when these optimizations would speed up the circuit.
 
-[← back to home](../main.md)
+[← back to home](../index.md)

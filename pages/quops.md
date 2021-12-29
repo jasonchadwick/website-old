@@ -1,4 +1,4 @@
-[← back to home](../main.md)
+[← back to home](../index.md)
 
 # Quops: a board game inspired by quantum mechanics
 
@@ -111,4 +111,4 @@ a different expected state.
     - singleplayer puzzle campaign (slowly introduce different gates)
     - AI offline opponent
 
-[← back to home](../main.md)
+[← back to home](../index.md)

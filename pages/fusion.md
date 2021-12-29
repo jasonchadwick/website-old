@@ -1,4 +1,4 @@
-[← back to home](../main.md)
+[← back to home](../index.md)
 
 # Neural networks for fusion plasma prediction
 
@@ -36,4 +36,4 @@ To recreate the conditions in which a neural network like this would actually be
 
 We expect accuracy above ~85-90% to be useful for control systems applications.
 
-[← back to home](../main.md)
+[← back to home](../index.md)
