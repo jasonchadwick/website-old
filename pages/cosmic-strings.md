@@ -1,6 +1,6 @@
 [← back to home](../README.md)
 
-# Cosmic String Research
+# Cosmic string research
 
 In the summer of 2019, I worked with Ken Olum at the Tufts Institute of Cosmology to study the properties of smooth cosmic string loops. I began the summer running computational simulations of cosmic strings and later transitioned to working on a mathematical proof with Prof. Olum. Below is an explanation of cosmic strings and a brief summary of my research.
 

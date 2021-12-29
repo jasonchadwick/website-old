@@ -1,6 +1,6 @@
 [← back to home](../README.md)
 
-# Quops: A board game inspired by quantum mechanics
+# Quops: a board game inspired by quantum mechanics
 
 [github.com/jasonchadwick/quops-game](https://github.com/jasonchadwick/quops-game)
 

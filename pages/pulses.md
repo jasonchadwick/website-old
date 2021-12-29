@@ -1,6 +1,6 @@
 [← back to home](../README.md)
 
-# Quantum Optimal Control
+# Quantum optimal control for high radix computation
 
 In the summer of 2021, I began research with the EPiQC group at the University of Chicago. My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing (spoiler alert: it looks like it does!).
 

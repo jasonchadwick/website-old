@@ -1,6 +1,6 @@
 [← back to home](../README.md)
 
-# Chronodrifter
+# Chronodrifter: a 2D time-manipulation puzzle platformer
 
 [Github repository](https://github.com/jasonchadwick/chronodrifter)
 
