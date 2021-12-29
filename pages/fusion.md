@@ -1,4 +1,4 @@
-[← back to home](https://jasonchadwick.github.io)
+[← back to home](../README.md)
 
 # Neural Networks for Fusion Plasma Prediction
 
@@ -36,4 +36,4 @@ To recreate the conditions in which a neural network like this would actually be
 
 We expect accuracy above ~85-90% to be useful for control systems applications.
 
-[← back to home](https://jasonchadwick.github.io)
+[← back to home](../README.md)

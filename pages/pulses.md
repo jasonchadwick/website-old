@@ -23,4 +23,4 @@ I investigated the relationship between qudit dimension (*d*) and the time it ta
 
 (coming soon)
 
-[← back to home](https://jasonchadwick.github.io)
+[← back to home](../README.md)

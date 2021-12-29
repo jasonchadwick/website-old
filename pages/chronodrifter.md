@@ -1,4 +1,4 @@
-[← back to home](https://jasonchadwick.github.io)
+[← back to home](../README.md)
 
 # Chronodrifter
 
@@ -18,4 +18,4 @@ I began the project in the summer of 2021 and resumed working on it that winter 
 
 Instead of a long explanation of the game, I encourage you to go [play](https://jasonchadwick.github.io/chronodrifter) it to see for yourself!
 
-[← back to home](https://jasonchadwick.github.io)
+[← back to home](../README.md)
