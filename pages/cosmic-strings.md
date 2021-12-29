@@ -1,4 +1,4 @@
-[← back to home](../README.md)
+[← back to home](../main.md)
 
 # Cosmic string research
 
@@ -38,4 +38,4 @@ Initially, we wanted to examine a specific loop of my research advisor's design 
 
 We were unable to complete a rigorous proof by the end of the summer, although we did verify several special cases. Looking at the bigger picture, the work we did was not necessarily the most groundbreaking or influential, but I really enjoyed working on a problem that nobody had attempted before and actually getting some results out of it. The problem-solving process was fun and thought provoking, and I learned a lot about the process of academic research, as well as computational physics and proof-writing specifically.
 
-[← back to home](../README.md)
+[← back to home](../main.md)

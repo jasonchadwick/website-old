@@ -1,4 +1,4 @@
-[← back to home](../README.md)
+[← back to home](../main.md)
 
 # Quantum optimal control for high radix computation
 
@@ -23,4 +23,4 @@ I investigated the relationship between qudit dimension (*d*) and the time it ta
 
 (coming soon)
 
-[← back to home](../README.md)
+[← back to home](../main.md)
