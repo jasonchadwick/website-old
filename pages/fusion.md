@@ -1,4 +1,4 @@
-[← back to home](/README.md)
+[← back to home](https://jasonchadwick.github.io)
 
 # Neural Networks for Fusion Plasma Prediction
 
@@ -28,12 +28,12 @@ We found our model to be most effective with 4 fully connected intermediate laye
 
 To recreate the conditions in which a neural network like this would actually be used, we trained the network on a certain chronological range of the historical data and then tested it on the next shots afterwards. Below is a graph of the network accuracy when training on the first *n* shots and predicting the next shot in order.
 
-![time-history-graph](/files/fusion-time-history.png)
-
-We expect accuracy above ~85% to be useful for control systems applications.
-
-[Slides from my poster presentation](/files/fusion-slides.pdf)
-
 [Poster](/files/fusion-poster.pdf)
 
-[← back to home](/README.md)
+[Detailed slides from poster presentation](/files/fusion-slides.pdf)
+
+![time-history-graph](/files/fusion-time-history.png)
+
+We expect accuracy above ~85-90% to be useful for control systems applications.
+
+[← back to home](https://jasonchadwick.github.io)
