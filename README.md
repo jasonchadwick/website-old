@@ -10,15 +10,15 @@ I am a fourth-year undergraduate at Carnegie Mellon University majoring in physi
 
 *Click the project names for longer descriptions*
 
-[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future, and potentially make a 3D version afterwards. Live WebGL game at [jasonchadwick.github.io/chronodrifter](https://jasonchadwick.github.io/chronodrifter).
+[**chronodrifter**](/files/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at [jasonchadwick.github.io/chronodrifter](https://jasonchadwick.github.io/chronodrifter).
 
-[**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. 
+[**quops**](/files/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. Currently not released anywhere, but I plan to in the future after polishing it more.
 
-[**optimal pulse control**](/pages/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. Control pulses determine the duration of quantum logic gates. I found high-radix pulses that allow for gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
+[**quantum optimal control**](/files/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. These pulses determine how much time it takes to apply certain quantum logic gates. I found pulses that allow for high-radix gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
 
-[**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): I created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems. Orders of magnitude faster than existing physics-based simulation code while maintaining high accuracy.
+[**neural network for fusion plasma prediction**](/files/fusion.md) (summer 2020 research): created a neural network using TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems. Orders of magnitude faster than existing physics-based simulation code while maintaining high accuracy.
 
-[**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): I simulated the time evolution and gravitational wave emissions of cosmic strings, which are proposed creases in spacetime that are leftovers from the expansion of the universe. I also worked on a mathematical proof regarding the stability of a class of cosmic string loops.
+[**cosmic string research**](/files/cosmicstrings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings. Cosmic strings are proposed creases in spacetime that are leftovers from the expansion of the universe.
 
 ### Publications
 
@@ -37,7 +37,7 @@ M.D. Boyer, **J. Chadwick** 2021. *Prediction of electron density and pressure p
 I have worked on personal and academic projects in:
 
 - **Julia**: [optimal pulse control](/pages/pulses.md).
-- **Python**: [fusin neural network](/pages/fusion.md), [quops](/pages/quops.md).
+- **Python**: [fusion neural network](/pages/fusion.md), [quops](/pages/quops.md).
 - **Unity/C#**: [chronodrifter](/pages/chronodrifter.md), quops - graphical edition *(coming soon)*.
 - **C**: various projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
 - **Common Lisp**: [cosmic strings](/pages/cosmic-strings.md).
