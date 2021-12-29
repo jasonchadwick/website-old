@@ -8,16 +8,16 @@ In the summer of 2019, I worked with Ken Olum at the Tufts Institute of Cosmolog
 
 ---
 
+*([paraphrased from this excellent description](https://arxiv.org/html/astro-ph/0005186))*
+
 The Higgs field permeates all space and has a “value” everywhere. If the Higgs field is in its ground state, the point where it is stable, its value is zero everywhere. This is the current state of the field. However, right after the Big Bang, the Higgs field was in a state of unstable equilibrium. As the universe cooled down, the field began to transition from this equilibrium point to a new value with lower energy. If this happens at one point in the field, then the field close to this point will also take on this value, and thus the new state would expand outwards in a bubble, with the field inside the bubble having transitioned to a new phase.
 
-*(From an external site)*
 In a cooling universe, such a phase transition would not necessarily proceed in an orderly fashion. Instead, there would be separate regions in which the Higgs field transitions to different new states, because the bubbles take some time to expand and the phase change could happen in many places at around the same time. As these regions began to merge, they will not necessarily all just become one big space. For example, we can visualize the possible values of the Higgs field as a hill with a valley on each side. At the Big Bang, the Higgs field is positioned unstably at the top of the hill. Then, when it transitions, it either rolls down one side or the other. If an expanding bubble with a left-falling field meets a bubble with a right-falling field, they could not smoothly transition to one another, leaving a barrier of energy between them where the energy of the field goes up and over the hill. Right along this barrier, the Higgs field still has the characteristics of the initial post - Big Bang field. This type of topological defect is known as a domain wall. (We do not think that these exist because they would be very obvious in the sky, as far as we know).
 
 ### Cosmic strings
 
 ---
 
-*(From an external site)*
 However, many models predict a Higgs field with circular symmetry, such that the field begins on a hill in the middle and is surrounded on all sides by a ring-shaped valley. The field can fall in any direction and its “position” can be denoted by an arrow that points outward from the center and can be between 0 and 360 degrees. (This is not a direction in physical space, just a way of visualizing the possible states of the field.) So, different points in space can have different arrow directions. As separate regions of broken symmetry merge, it is not always possible for the field orientations to match. A cosmic string forms when the orientation of the arrows cannot be adjusted so as to keep the Higgs field in the minimum energy state at all places. With our arrow example, this would be if the arrows of multiple different bubbles point away from some place in the middle. For most of space, the field is in its new state, but at the point where the arrows cannot “smooth out”, the Higgs field must pass over the central hill, creating a narrow, extremely massive structure with unbroken symmetry (the original Higgs value) along its length. 
 
 Grand Unified Theories, which aim to unite the strong interaction with the already unified electroweak force, tend to contain Higgs fields that produce these cosmic strings.
