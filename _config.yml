@@ -1,10 +1,11 @@
 theme: jekyll-theme-slate
+name: Jason Chadwick
+title: Jason Chadwick
 plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
-  
 include:
   - CONTRIBUTING.md
   - README.md
