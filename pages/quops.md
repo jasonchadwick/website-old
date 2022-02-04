@@ -21,7 +21,9 @@ Player 1's goal is to make it become [1, 1, ..., 1]. This entire game could be d
 code) - the only thing that the hexagonal board design decides is what possible unitary manipulations are allowed on the bits. In the backend, gameplay creates a quantum computer circuit step by step. So in theory this game could be physically implemented on a quantum computer with 
 each tile being a qubit.
 
-### Gameplay
+### Gameplay example
+
+---
 
 Tile numbering:
 ```
@@ -85,12 +87,16 @@ Player 0's turn...
 
 ### Implementation
 
+---
+
 In quantum mechanics terms, the game is in a superposition of 2^(ntiles-1) possible states, each of which has a "probability amplitude" that is
 related to the probability of that particular state being observed when the board is "measured". Current state of game is stored as a sparse 
 array containing a probability amplitude (a complex number) for each nonzero-amplitude states. Mathematically, operations are unitary matrices on the entire space, but are treated 
 as a series of conditionals in the code. For example, CNOT(0, 1) is a CNOT gate with the 0 tile as control and the 1 tile as target, meaning that it flips the 0th bit when the 1st bit has value 1, and does nothing when the 1st bit has value 0. Any states that have the bit patterns |10....> or |11....> will have their amplitudes swapped with each other, because the bit with index 1 is on.
 
 ### Qudits
+
+---
 
 What about more than 2 players?
 In quantum computing, "qubits" with more than 2 states are known as qudits (for 3-state
@@ -101,6 +107,9 @@ to allow for 3 players to play together, with each player aiming to get the qutr
 a different expected state.
 
 ### TODO
+
+---
+
 - win condition = make [0,0,0,...,0] the most probable state, instead of counting sum of probabilities
 - in-game tutorial/info on each of the cards
 - work on game balancing (game currently works, but isn't very fun)

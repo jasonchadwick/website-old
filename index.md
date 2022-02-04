@@ -10,7 +10,7 @@ I am a fourth-year undergraduate at Carnegie Mellon University majoring in physi
 
 *Click a project name to read more*
 
-[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at [jasonchadwick.github.io/chronodrifter](https://jasonchadwick.github.io/chronodrifter).
+[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at [placeholder-studios-dev.github.io/chronodrifter](https://placeholder-studios-dev.github.io/chronodrifter).
 
 [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. Currently not released anywhere, but I plan to in the future after polishing it more.
 
