@@ -2,7 +2,11 @@ jasoncha (at) andrew.cmu.edu ┃ [resume](/files/resume.pdf) ┃ [Github](https:
 
 ---
 
+<img style="float: left; width: 15%; margin-right: 10px" src="files/linkedin.jpg">
+
 I am a fourth-year undergraduate at Carnegie Mellon University majoring in physics and minoring in computer science. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
+
+<br clear="left"/>
 
 ### Projects
 
