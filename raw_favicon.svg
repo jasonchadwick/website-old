@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="raw_favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74029882"
+     inkscape:cx="240.44345"
+     inkscape:cy="342.42929"
+     inkscape:window-width="1864"
+     inkscape:window-height="1021"
+     inkscape:window-x="1976"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#009e9e;fill-opacity:0.99319899;stroke-width:0.926914;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.85383, 1.85383;stroke-dashoffset:2.1319;stroke-opacity:0.999804"
+       id="path21780"
+       cx="25"
+       cy="25"
+       r="25" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:31.8531px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.24885"
+       x="9.2841864"
+       y="36.148376"
+       id="text4204"
+       transform="scale(1.0005923,0.99940805)"><tspan
+         sodipodi:role="line"
+         id="tspan4202"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.8531px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';stroke-width:0.24885;fill:#ffffff;fill-opacity:1"
+         x="9.2841864"
+         y="36.148376">JC</tspan></text>
+  </g>
+</svg>
