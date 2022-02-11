@@ -20,9 +20,7 @@ Control systems are the automatic programs that continually make small adjustmen
 
 ---
 
-<div style="text-align: center;">
-![time-history-graph](/files/fusion-time-history.png)
-</div>
+<img style="float: center; width: 100%" src="files/fusion-time-history.png">
 
 The neural network has access to 9 input variables corresponding to instantaneous values of the plasma at a given time. These variables include plasma current, upper and lower triangularity (measures of the shape of the plasma), and others. The goal of the network was to predict a sequence of values corresponding to the density of the plasma at many radial points from the center to the outer edge, through the central plane of the toroidal plasma, as well as values for the pressure of the plasma at the same points. In effect, the neural network produces two 1-dimensional functions based on 9 input numbers.
 
