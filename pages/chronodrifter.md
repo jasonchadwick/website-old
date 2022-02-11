@@ -2,9 +2,9 @@
 
 # Chronodrifter: a 2D time-manipulation puzzle platformer
 
-[Github repository](https://github.com/placeholder-studios-dev/chronodrifter)
+<a href="https://github.com/placeholder-studios-dev/chronodrifter" target="_blank" rel="noopener noreferrer">Github repository</a>
 
-[Live web game](https://placeholder-studios-dev.github.io/chronodrifter)
+<a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">Live web game</a>
 
 ---
 
@@ -21,5 +21,7 @@ I began the project in the summer of 2021 and resumed working on it that winter 
 ---
 
 Each time-reversible object maintains a stack of previous states (structs that implement the StateInterface interface)
+
+(TODO)
 
 [← back to home](../index.md)

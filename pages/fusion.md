@@ -2,7 +2,7 @@
 
 # Neural networks for fusion plasma prediction
 
-In the summer of 2020, I worked with Dan Boyer at the Princeton Plasma Physics Laboratory (PPPL) to create a neural network for predicting fusion plasma properties in real time, for use in fusion reactor control systems. The neural network was successful, achieving high accuracy with extremely fast execution times, and we published our work in *Nuclear Fusion* ([doi.org/10.1088/1741-4326/abe08b](https://doi.org/10.1088/1741-4326/abe08b)).
+In the summer of 2020, I worked with Dan Boyer at the Princeton Plasma Physics Laboratory (PPPL) to create a neural network for predicting fusion plasma properties in real time, for use in fusion reactor control systems. The neural network was successful, achieving high accuracy with extremely fast execution times, and we published our work in *Nuclear Fusion* (<a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">doi.org/10.1088/1741-4326/abe08b</a>).
 
 My poster for the 2020 APS DPP meeting can be found [here](/files/fusion-poster.pdf), and more detailed slides [here](/files/fusion-slides.pdf).
 
@@ -19,21 +19,22 @@ Control systems are the automatic programs that continually make small adjustmen
 ### Neural networks for profile estimation
 
 ---
+<div style="text-align: center;">
+![time-history-graph](/files/fusion-time-history.png)
+</div>
 
 The neural network has access to 9 input variables corresponding to instantaneous values of the plasma at a given time. These variables include plasma current, upper and lower triangularity (measures of the shape of the plasma), and others. The goal of the network was to predict a sequence of values corresponding to the density of the plasma at many radial points from the center to the outer edge, through the central plane of the toroidal plasma, as well as values for the pressure of the plasma at the same points. In effect, the neural network produces two 1-dimensional functions based on 9 input numbers.
 
-We used data from NSTX, the fusion reactor at PPPL, which has since been upgraded to [NSTX-U](https://pppl.gov/nstx). The dataset consists of (TODO) years of data from (TODO - TODO). The density and pressure profiles were calculated by [TRANSP](https://transp.pppl.gov/), PPPL's physics-based simulation code, which we assumed to be highly accurate representations of the actual values (which cannot be measured). TRANSP outputs the density and pressure profiles as sequences of 20 points each, ranging from the inner edge of the toroidal plasma to the outer edge.
+We used data from NSTX, the fusion reactor at PPPL, which has since been upgraded to <a href="https://pppl.gov/nstx" target="_blank" rel="noopener noreferrer">NSTX-U</a>. The dataset consists of (TODO) years of data from (TODO - TODO). The density and pressure profiles were calculated by <a href="https://transp.pppl.gov" target="_blank" rel="noopener noreferrer">TRANSP</a>, PPPL's physics-based simulation code, which we assumed to be highly accurate representations of the actual values (which cannot be measured). TRANSP outputs the density and pressure profiles as sequences of 20 points each, ranging from the inner edge of the toroidal plasma to the outer edge.
 
-We found our model to be most effective with 4 fully connected intermediate layers of 100 nodes each, in addition to the input layer and output layer. The density and pressure profiles were processed using [principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) to reduce each profile to 6 values instead of 20, while still accounting for 97% of variance in profile shapes.
+We found our model to be most effective with 4 fully connected intermediate layers of 100 nodes each, in addition to the input layer and output layer. The density and pressure profiles were processed using <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank" rel="noopener noreferrer">principal component analysis</a> to reduce each profile to 6 values instead of 20, while still accounting for 97% of variance in profile shapes.
 
-To recreate the conditions in which a neural network like this would actually be used, we trained the network on a certain chronological range of the historical data and then tested it on the next shots afterwards. Below is a graph of the network accuracy when training on the first *n* shots and predicting the next shot in order.
+To recreate the conditions in which a neural network like this would actually be used, we trained the network on a certain chronological range of the historical data and then tested it on the next shots afterwards. At the top of this section is a graph of the network accuracy when training on the first *n* shots and predicting the next shot in order.
+
+We expect accuracy above ~85-90% to be useful for control systems applications.
 
 [Poster](/files/fusion-poster.pdf)
 
 [Detailed slides from poster presentation](/files/fusion-slides.pdf)
-
-![time-history-graph](/files/fusion-time-history.png)
-
-We expect accuracy above ~85-90% to be useful for control systems applications.
 
 [← back to home](../index.md)

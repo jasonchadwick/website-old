@@ -2,7 +2,7 @@
 
 # Quops: a board game inspired by quantum mechanics
 
-[github.com/jasonchadwick/quops-game](https://github.com/jasonchadwick/quops-game)
+<a href="https://github.com/jasonchadwick/quops-game" target="_blank" rel="noopener noreferrer">github.com/jasonchadwick/quops-game</a>
 
 ---
 

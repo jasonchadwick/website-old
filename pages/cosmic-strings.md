@@ -8,7 +8,7 @@ In the summer of 2019, I worked with Ken Olum at the Tufts Institute of Cosmolog
 
 ---
 
-*([paraphrased from this excellent description](https://arxiv.org/html/astro-ph/0005186))*
+*(<a href="https://arxiv.org/html/astro-ph/0005186" target="_blank" rel="noopener noreferrer">paraphrased from this excellent description</a>)*
 
 The Higgs field permeates all space and has a “value” everywhere. If the Higgs field is in its ground state, the point where it is stable, its value is zero everywhere. This is the current state of the field. However, right after the Big Bang, the Higgs field was in a state of unstable equilibrium. As the universe cooled down, the field began to transition from this equilibrium point to a new value with lower energy. If this happens at one point in the field, then the field close to this point will also take on this value, and thus the new state would expand outwards in a bubble, with the field inside the bubble having transitioned to a new phase.
 

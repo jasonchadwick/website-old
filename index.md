@@ -4,7 +4,7 @@ jasoncha (at) andrew.cmu.edu ┃ [resume](/files/resume.pdf) ┃ [Github](https:
 
 <img style="float: left; width: 15%; margin-right: 10px" src="files/linkedin.jpg">
 
-I am a fourth-year undergraduate at Carnegie Mellon University majoring in physics and minoring in computer science. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
+I am graduating from Carnegie Mellon University in May with a degree in physics and a computer science minor. Next year, I will be pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
 
 <br clear="left"/>
 
@@ -14,7 +14,7 @@ I am a fourth-year undergraduate at Carnegie Mellon University majoring in physi
 
 *Click a project name to read more*
 
-[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at [placeholder-studios-dev.github.io/chronodrifter](https://placeholder-studios-dev.github.io/chronodrifter).
+[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
 
 [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. Currently not released anywhere, but I plan to in the future after polishing it more.
 
@@ -30,7 +30,7 @@ I am a fourth-year undergraduate at Carnegie Mellon University majoring in physi
 
 (_accepted submission_) J. Baker, **J. Chadwick** et al. *Synthesizing Efficient Pulses for Practical Qudit Circuits*. QIP 2022 #650.
 
-M.D. Boyer, **J. Chadwick** 2021. *Prediction of electron density and pressure profile shapes on NSTX-U using neural networks*. Nuclear Fusion 61 046024. [doi.org/10.1088/1741-4326/abe08b](https://doi.org/10.1088/1741-4326/abe08b).
+M.D. Boyer, **J. Chadwick** 2021. *Prediction of electron density and pressure profile shapes on NSTX-U using neural networks*. Nuclear Fusion 61 046024. <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">doi.org/10.1088/1741-4326/abe08b</a>.
 
 **J. Chadwick**, M.D. Boyer 2020. *Machine learning modeling and analysis of temperature and density profiles on NSTX and NSTX-U*. APS Division of Plasma Physics Meeting Abstracts 2020, JP13 022.
 
@@ -44,6 +44,7 @@ I have worked on personal and academic projects in:
 - **Python**: [fusion neural network](/pages/fusion.md), [quops game](/pages/quops.md).
 - **Unity/C#**: [chronodrifter game](/pages/chronodrifter.md), quops - graphical edition *(coming soon)*.
 - **Common Lisp**: [cosmic strings](/pages/cosmic-strings.md).
+- **C++**: projects for Discrete Differential Geometry course, implementing foundational computer graphics algorithms.
 - **C**: various projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
 
 And various others such as SML, Bash, and Mathematica.

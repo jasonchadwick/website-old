@@ -2,7 +2,7 @@
 
 # Quantum optimal control for high radix computation
 
-In the summer of 2021, I began research with the [EPiQC](https://www.epiqc.cs.uchicago.edu/) group at the University of Chicago. My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing (spoiler alert: it looks like it does!).
+In the summer of 2021, I began research with the <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a> group at the University of Chicago (I will now be starting a Ph.D. there in September). My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing (spoiler alert: it looks like it does!).
 
 ### High radix quantum computation
 
@@ -31,7 +31,7 @@ In quantum computers, logic gates are applied through control pulses - time-depe
 
 Control pulses can also be designed to apply 2-bit gates, the most common of which is the CNOT gate. The CNOT gate applies a NOT operation on the target qubit when the control qubit is in state 1, and does nothing if the control qubit is in state 0. The CNOT, along with several single-qubit gates, forms a universal gate set - meaning that any quantum computation can be written in terms of CNOTs and single qubit gates. Typically, 2-bit gates take far longer to apply than single-bit gates (around ~10x longer).
 
-Previously, the EPiQC research group had found several theoretical improvements to quantum circuits using qutrits or general qudits. For example, a general Toffoli gate (performs a NOT operation on the target qubit if and only if all *n* controls are 1) typically takes *O(n)* two-qubit gates to perform without ancilla, but using qutrits instead of qubits decreases this to *O(*log*n)*, an exponential improvement (arXiv paper [here](https://arxiv.org/pdf/1905.10481.pdf)). However, this improvement is not practical if qutrit gates take far longer to perform than qubit gates, nullifying the potential speedup.
+Previously, the EPiQC research group had found several theoretical improvements to quantum circuits using qutrits or general qudits. For example, a general Toffoli gate (performs a NOT operation on the target qubit if and only if all *n* controls are 1) typically takes *O(n)* two-qubit gates to perform without ancilla, but using qutrits instead of qubits decreases this to *O(*log*n)*, an exponential improvement (arXiv <a href="https://arxiv.org/pdf/1905.10481.pdf" target="_blank" rel="noopener noreferrer">1905.10481</a>). However, this improvement is not practical if qutrit gates take far longer to perform than qubit gates, nullifying the potential speedup.
 
 ### Qudit circuit improvements
 
