@@ -19,6 +19,7 @@ Control systems are the automatic programs that continually make small adjustmen
 ### Neural networks for profile estimation
 
 ---
+
 <div style="text-align: center;">
 ![time-history-graph](/files/fusion-time-history.png)
 </div>
