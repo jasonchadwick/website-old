@@ -2,7 +2,7 @@ jasoncha (at) andrew.cmu.edu ┃ [resume](/files/resume.pdf) ┃ [Github](https:
 
 ---
 
-<img style="float: left; width: 15%; margin-right: 10px" src="files/linkedin.jpg">
+<img style="float: left; width: 20%; margin-right: 10px" src="files/linkedin.jpg">
 
 I am graduating from Carnegie Mellon University in May with a degree in physics and a computer science minor. Next year, I will be pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
 
