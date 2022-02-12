@@ -8,7 +8,7 @@
 
 ---
 
-<figure style="float: right; width: 45%; margin: 15px">
+<figure style="float: right; width: 300px; margin: 15px">
 <img  src="../files/tower.gif">
 <figcaption style="text-align: center">Climbing a tower of blocks by first knocking it over and then reversing time.</figcaption>
 </figure>
