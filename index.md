@@ -2,9 +2,9 @@ jasoncha (at) andrew.cmu.edu ┃ [resume](/files/resume.pdf) ┃ [Github](https:
 
 ---
 
-<img style="float: left; width: 20%; margin-right: 10px" src="files/linkedin.jpg">
+<img style="float: left; width: 25%; margin-right: 15px" src="files/linkedin.jpg">
 
-I am graduating from Carnegie Mellon University in May with a degree in physics and a computer science minor. Next year, I will be pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
+I am graduating from Carnegie Mellon University in May with a B.S. in physics and a minor in computer science. Next year, I will begin pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture with advisor Fred Chong. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
 
 <br clear="left"/>
 
@@ -28,11 +28,23 @@ I am graduating from Carnegie Mellon University in May with a degree in physics 
 
 ---
 
-(_accepted submission_) J. Baker, **J. Chadwick** et al. *Synthesizing Efficient Pulses for Practical Qudit Circuits*. QIP 2022 #650.
+(to appear) *Synthesizing Efficient Pulses for Practical Qudit Circuits.* J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong.
+<br>QIP Poster 2022 #650.
+<br>(see [optimal pulse control](/pages/pulses.md) for more info)
 
-M.D. Boyer, **J. Chadwick** 2021. *Prediction of electron density and pressure profile shapes on NSTX-U using neural networks*. Nuclear Fusion 61 046024. <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">doi.org/10.1088/1741-4326/abe08b</a>.
+<br>
 
-**J. Chadwick**, M.D. Boyer 2020. *Machine learning modeling and analysis of temperature and density profiles on NSTX and NSTX-U*. APS Division of Plasma Physics Meeting Abstracts 2020, JP13 022.
+<a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">*Prediction of electron density and pressure profile shapes on NSTX-U using neural networks.* </a>M.D. Boyer, **J. Chadwick**. 
+<br>Nuclear Fusion 61 046024. (2021) 
+<br>(see [fusion neural network](/pages/fusion.md) for more info)
+
+<br>
+
+<a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer"> *Machine learning modeling and analysis of temperature and density profiles on NSTX and NSTX-U.*</a>  **J. Chadwick**, M.D. Boyer 2020.
+<br>APS DPP Poster 2020, JP13-022
+<br>(see [fusion neural network](/pages/fusion.md) for more info)
+
+
 
 ### Programming Languages
 
