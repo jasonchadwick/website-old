@@ -4,7 +4,7 @@ jasoncha (at) andrew.cmu.edu ┃ [resume](/files/resume.pdf) ┃ [Github](https:
 
 <img style="float: left; width: 25%; margin-right: 15px; margin-top: 10px" src="files/linkedin.jpg">
 
-I am graduating from Carnegie Mellon University in May with a B.S. in physics and a minor in computer science. Next year, I will begin pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture with advisor Fred Chong. My interests include applied physics, fusion energy, quantum computing, video game design, reading, taking care of my plants, and playing guitar.
+I am graduating from Carnegie Mellon University in May with a B.S. in physics and a minor in computer science. Next year, I will begin pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture with advisor Fred Chong. My interests include applied physics, fusion energy, quantum computing, video game design, reading, cycling, taking care of my plants, and playing guitar.
 
 <br clear="left"/>
 
@@ -45,11 +45,11 @@ I am graduating from Carnegie Mellon University in May with a B.S. in physics an
 
 I have worked on personal and academic projects in:
 
-- **Julia**: [quantum optimal control](/pages/pulses.md).
-- **Python**: [fusion neural network](/pages/fusion.md), [quops game](/pages/quops.md).
-- **Unity/C#**: [chronodrifter game](/pages/chronodrifter.md), quops - graphical edition *(coming soon)*.
-- **Common Lisp**: [cosmic strings](/pages/cosmic-strings.md).
-- **C++**: projects for Discrete Differential Geometry course, implementing foundational computer graphics algorithms.
-- **C**: various projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
+- **Julia:** [quantum optimal control](/pages/pulses.md).
+- **Python:** [fusion neural network](/pages/fusion.md), [quops game](/pages/quops.md).
+- **C#/Unity:** [chronodrifter game](/pages/chronodrifter.md), quops - graphical edition *(coming soon)*.
+- **Common Lisp:** [cosmic strings](/pages/cosmic-strings.md).
+- **C++:** projects for Discrete Differential Geometry course, implementing foundational computer graphics algorithms on simplicial manifolds.
+- **C:** projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
 
-And various others such as SML, Bash, and Mathematica.
+And experience in various others such as JavaScript, SML, Bash, and Mathematica.
