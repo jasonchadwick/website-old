@@ -28,20 +28,13 @@ I am graduating from Carnegie Mellon University in May with a B.S. in physics an
 
 ---
 
-(to appear) *Synthesizing Efficient Pulses for Practical Qudit Circuits.* J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong.
-<br>QIP Poster 2022 #650.
+- (to appear) Synthesizing Efficient Pulses for Practical Qudit Circuits. J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650.*
 <br>(see [optimal pulse control](/pages/pulses.md) for more info)
 
-<br>
-
-<a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">*Prediction of electron density and pressure profile shapes on NSTX-U using neural networks.* </a>M.D. Boyer, **J. Chadwick**. 
-<br>Nuclear Fusion 61 046024. (2021) 
+- <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">Prediction of electron density and pressure profile shapes on NSTX-U using neural networks. </a>M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024.* (2021) 
 <br>(see [fusion neural network](/pages/fusion.md) for more info)
 
-<br>
-
-<a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer"> *Machine learning modeling and analysis of temperature and density profiles on NSTX and NSTX-U.*</a>  **J. Chadwick**, M.D. Boyer 2020.
-<br>APS DPP Poster 2020, JP13-022
+- <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer"> Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U.</a>  **J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*
 <br>(see [fusion neural network](/pages/fusion.md) for more info)
 
 
