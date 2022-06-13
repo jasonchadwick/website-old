@@ -12,14 +12,16 @@ Quantum computing typically involves the use of qubits, quantum objects with two
 
 In particular, a 4-state qudit (or *ququart*) can completely encode the information of 2 qubits, by encoding the information as in the following table:
 
-Ququart state | 0 | 1 | 2 | 3
---- | --- | --- | --- | ---
-Qubit A state | 0 | 0 | 1 | 1
-Qubit B state | 0 | 1 | 0 | 1
+Qubit A state | Qubit B state | Ququart state
+--- | --- | ---
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 2
+1 | 1 | 3
 
-This encoding process can be done in the middle of a quantum circuit, encoding all information of the original two qubits into one of them after promoting it to a ququart and leaving the other qubit as an *ancilla*, an unused bit that is useful in certain quantum computations to hold intermediate data.
+This encoding process can be done in the middle of a quantum circuit, transferring all information of the original two qubits into one of them after promoting it to a ququart and leaving the other qubit as an *ancilla*, an unused bit that is useful in certain quantum computations to hold intermediate data.
 
-I investigated the relationship between qudit dimension *(d)* and the time it takes to apply a logic gate. Previous theoretical work had established that gate duration could be proportional to *d* squared in the worst case, which would make qudit circuits prohibitively slower than qubit-only circuits. However, I found that in practice these gates can be done more efficiently, opening the door to many new possibilities.
+I investigated the relationship between qudit dimension *(d)* and the time it takes to apply a logic gate. Previous theoretical work had established that gate duration could be proportional to *d* squared in the worst case, which would make qudit circuits prohibitively slower than qubit-only circuits. However, we found that in practice these gates can be done more efficiently, opening the door to many new possibilities.
 
 ### Quantum optimal control
 
@@ -45,10 +47,10 @@ This "internal CNOT" gate is around 10x faster than running a standard CNOT on t
 
 ---
 
-We will be presenting our initial pulse work at QIP 2022, poster #650.
+We presented our initial pulse work at QIP 2022, poster #650, and a paper on our optimal control methods is currently under review for QCE 2022.
 
 In general, qudits are expected to be more error-prone than qubits since they occupy higher energy states. We are still investigating this and working to quantify the error rates. It remains to be seen whether these errors will prove prohibitive and require us to wait for higher precision quantum computers, but for now we are hopeful that the approach will be useful even in today's noisy devices.
 
-We are also designing a transpiler that will take in qubit circuits and output mixed-radix circuits that selectively use ququarts in place of qubits when these optimizations would speed up the circuit.
+We are also designing a transpiler that will take in qubit circuits and output mixed-radix circuits that selectively use ququarts in place of qubits when these optimizations would speed up the circuit. We intend to publish this work at APLOS 2023.
 
 [← back to home](../index.md)
