@@ -8,9 +8,7 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 <br clear="left"/>
 
-### Projects
-
----
+## Projects
 
 *Click a project name to read more. See my [Github](https://github.com/jasonchadwick/) for all public projects.*
 
@@ -22,15 +20,14 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 [**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings. Cosmic strings are proposed creases in spacetime that are leftovers from the expansion of the universe.
 
-#### Personal projects
+#### Personal
 
 [**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
 
 [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. Currently not released anywhere, but I am thinking about it in the future after polishing it more.
 
-### Publications
+## Publications
 
----
 *\* indicates equal contribution*
 
 - *(under review)* Time-Efficient Qudit Gates through Incremental Pulse Re-seeding. L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
@@ -47,9 +44,7 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 
 
-### Programming Languages
-
----
+## Programming Languages
 
 I have worked on personal and academic projects in:
 
