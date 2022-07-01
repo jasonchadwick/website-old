@@ -30,7 +30,7 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 *\* indicates equal contribution*
 
-- *(under review)* Time-Efficient Qudit Gates through Incremental Pulse Re-seeding. L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
+- *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">Time-Efficient Qudit Gates through Incremental Pulse Re-seeding.</a> L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
 <br>(see [quantum optimal control](/pages/pulses.md) for more info)
 
 - [Synthesizing Efficient Pulses for Practical Qudit Circuits.](/files/QIP-2022.pdf) J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650.*
