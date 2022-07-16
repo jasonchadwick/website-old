@@ -8,7 +8,7 @@ In the summer of 2021, I began research with the <a href="https://www.epiqc.cs.u
 
 ---
 
-Quantum computing typically involves the use of qubits, quantum objects with two distinct states, in analogy to the classical bit. Due to the exponential scaling capability of quantum, every qubit matters, especially in the relatively small machines (~100 qubits) in use in the near future. Often, the states of a qubit are the two lowest-energy states of a potentially infinite number; for example, in superconducting quantum computers, a qubit uses the lowest two energy levels of a quantum harmonic oscillator, ignoring the higher-energy states. A qu*dit* is the generalization of a qubit to *d* distinct states (radix > 2), which can store more information than a 2-state qubit without taking up a larger footprint on a device, making it an interesting topic of study. 
+Quantum computing typically involves the use of qubits, quantum objects with two distinct states, in analogy to classical bits. Due to the exponential scaling capability of quantum, every qubit matters, especially in the relatively small machines (~100 qubits) in use in the near future. Often, the states of a qubit are the two lowest-energy states of a potentially infinite number - in superconducting quantum computers, a qubit uses the lowest two energy levels of a quantum harmonic oscillator, ignoring the higher-energy states. A qu*dit* is the generalization of a qubit to *d* distinct states (radix > 2), which can store more information than a 2-state qubit without taking up a larger footprint on a device, making it an interesting topic of study. 
 
 In particular, a 4-state qudit (or *ququart*) can completely encode the information of 2 qubits, by encoding the information as in the following table:
 
@@ -39,7 +39,7 @@ Previously, the EPiQC research group had found several theoretical improvements 
 
 ---
 
-While exploring various qudit gates, I found that a single-ququart gate that swapped the states 2 and 3, known as the X<sub>23</sub> gate, could be performed almost as fast as a standard single-qubit NOT gate (i.e. very fast). Interestingly, if the ququart is thought of as an encoding of 2 qubits together, this X<sub>23</sub> gate performs a CNOT between the two encoded qubits, switching the populations of the "10" and "11" states of the ququart, since a CNOT swaps the 0 and 1 states of the target qubit when the control qubit is in state 1.
+While exploring various qudit gates, we found that a single-ququart gate that swapped the states 2 and 3, known as the X<sub>23</sub> gate, could be performed almost as fast as a standard single-qubit NOT gate (i.e. very fast). Interestingly, if the ququart is thought of as an encoding of 2 qubits together, this X<sub>23</sub> gate performs a CNOT between the two encoded qubits, switching the populations of the "10" and "11" states of the ququart, since a CNOT swaps the 0 and 1 states of the target qubit when the control qubit is in state 1.
 
 This "internal CNOT" gate is around 10x faster than running a standard CNOT on two qubits, meaning that for certain quantum circuits, careful use of ququarts in intermediate steps could lead to improvements in **both** time (faster running circuits) and space (using fewer physical qudits, due to qudit-ququart compression).
 
@@ -47,10 +47,10 @@ This "internal CNOT" gate is around 10x faster than running a standard CNOT on t
 
 ---
 
-We presented our initial pulse work at QIP 2022, poster #650, and a paper on our optimal control methods is currently under review for QCE 2022.
+We presented our initial pulse work at QIP 2022, poster #650, and will present a <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">paper</a> on our optimal control methods at QCE 2022 in September.
+
+We have written a compiler that takes advantage of ququart compression to reduce circuit error and increase near-term computational power of quantum computers. This paper is currently under review for the ASPLOS 2023 conference. 
 
 In general, qudits are expected to be more error-prone than qubits since they occupy higher energy states. We are still investigating this and working to quantify the error rates. It remains to be seen whether these errors will prove prohibitive and require us to wait for higher precision quantum computers, but for now we are hopeful that the approach will be useful even in today's noisy devices.
-
-We are also designing a transpiler that will take in qubit circuits and output mixed-radix circuits that selectively use ququarts in place of qubits when these optimizations would speed up the circuit. We intend to publish this work at APLOS 2023.
 
 [← back to home](../index.md)

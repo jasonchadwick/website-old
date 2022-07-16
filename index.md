@@ -14,7 +14,7 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 #### Academic
 
-[**quantum optimal control**](/pages/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. These pulses determine how much time it takes to apply certain quantum logic gates. I found pulses that allow for high-radix gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
+[**quantum optimal control**](/pages/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. These pulses determine how much time it takes to apply certain quantum logic gates. We found pulses that allow for high-radix gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
 
 [**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network using TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems. This approach is orders of magnitude faster than existing physics-based simulation code while maintaining high accuracy.
 
@@ -29,6 +29,9 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 ## Publications
 
 *\* indicates equal contribution*
+
+- *(under review)* Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction. A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*
+<br>(see [quantum optimal control](/pages/pulses.md) for more info)
 
 - *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">Time-Efficient Qudit Gates through Incremental Pulse Re-seeding.</a> L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
 <br>(see [quantum optimal control](/pages/pulses.md) for more info)

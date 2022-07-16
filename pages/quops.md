@@ -16,8 +16,8 @@ less than 1 (in which case player 0 has won) or greater than `ntiles-1` (in whic
 
 Tiles are hexagonal (six neighbors), and two-tile cards can only be played on neighboring tiles.
 
-Mathematically, the board is a bit vector [b0, b1, ... bn] and Player 0's goal is to make the most probable state become [0, 0, ..., 0] while 
-Player 1's goal is to make it become [1, 1, ..., 1]. This entire game could be described using quantum mechanics and matrices (and it is, in the
+Mathematically, a board of $n$ tiles is described by the superposition of bit vectors $[b_0, b_1, ... b_k]$ where $k=2^n$. Player 0's goal is to make the most probable state become $\ket{00...0}$ while 
+Player 1's goal is to make it become $\ket{11...1}$. This entire game could be described using quantum mechanics and matrices (and it is, in the
 code) - the only thing that the hexagonal board design decides is what possible unitary manipulations are allowed on the bits. In the backend, gameplay creates a quantum computer circuit step by step. So in theory this game could be physically implemented on a quantum computer with 
 each tile being a qubit.
 
