@@ -4,7 +4,7 @@ jchadwick (at) uchicago.edu **\|** [resume](/files/resume.pdf) **\|** [Github](h
 
 <img style="float: left; width: 21%; margin-right: 15px; margin-top: 10px" src="files/portrait.jpg">
 
-I am currently pursuing a computer science Ph.D. at the University of Chicago, studying quantum computer architecture. I graduated from Carnegie Mellon University in 2022 with a B.S. in physics and a minor in computer science. My interests within quantum computing include multi-valued logic, optimal control and compilation. My other interests include video game design, biking, and playing guitar.
+I will begin pursuing a computer science Ph.D. at the University of Chicago in September, studying quantum computer architecture. I graduated from Carnegie Mellon University in 2022 with a B.S. in physics and a minor in computer science. My interests within quantum computing include compilation, multi-valued logic, optimal control, and neutral atoms. My other interests include video game design, biking, and playing guitar.
 
 <br clear="left"/>
 
