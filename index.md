@@ -14,30 +14,30 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 #### Academic
 
-[**quantum optimal control**](/pages/pulses.md) (summer 2021 - present): Found optimal control pulses for transmon quantum computers, focusing on qudit operations. These pulses determine how much time it takes to apply certain quantum logic gates. We found pulses that allow for high-radix gate times significantly faster than theoretically expected, opening the door to new qudit-based optimizations to quantum circuits.
+[**qudit optimal control**](/pages/qudit-pulses.md) (summer 2021 - present): Found control pulses that allow for significantly faster high-radix quantum logic gates, opening the door to new qudit-based circuit optimizations.
 
-[**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network using TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems. This approach is orders of magnitude faster than existing physics-based simulation code while maintaining high accuracy.
+[**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems.
 
-[**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings. Cosmic strings are proposed creases in spacetime that are leftovers from the expansion of the universe.
+[**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings.
 
 #### Personal
 
-[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. I am hoping to publish it as a standalone game sometime in the future and potentially make a 3D version afterwards. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
+[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
 
-[**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles. Currently not released anywhere, but I am thinking about it in the future after polishing it more.
+[**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles.
 
 ## Publications
 
 *\* indicates equal contribution*
 
 - *(under review)* Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction. A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*
-<br>(see [quantum optimal control](/pages/pulses.md) for more info)
+<br>(see [quantum optimal control](/pages/qudit-pulses.md) for more info)
 
 - *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">Time-Efficient Qudit Gates through Incremental Pulse Re-seeding.</a> L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
-<br>(see [quantum optimal control](/pages/pulses.md) for more info)
+<br>(see [quantum optimal control](/pages/qudit-pulses.md) for more info)
 
 - [Synthesizing Efficient Pulses for Practical Qudit Circuits.](/files/QIP-2022.pdf) J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650.*
-<br>(see [quantum optimal control](/pages/pulses.md) for more info)
+<br>(see [quantum optimal control](/pages/qudit-pulses.md) for more info)
 
 - <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">Prediction of electron density and pressure profile shapes on NSTX-U using neural networks.</a> M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024.* (2021) 
 <br>(see [fusion neural network](/pages/fusion.md) for more info)
@@ -51,7 +51,7 @@ I am currently pursuing a computer science Ph.D. at the University of Chicago, s
 
 I have worked on personal and academic projects in:
 
-- **Julia:** [quantum optimal control](/pages/pulses.md).
+- **Julia:** [quantum optimal control](/pages/qudit-pulses.md).
 - **Python:** [fusion neural network](/pages/fusion.md), [quops game](/pages/quops.md).
 - **C#/Unity:** [chronodrifter game](/pages/chronodrifter.md), quops - graphical edition *(coming soon)*.
 - **Common Lisp:** [cosmic strings](/pages/cosmic-strings.md).
