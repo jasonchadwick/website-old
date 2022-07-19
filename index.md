@@ -1,5 +1,11 @@
 <center>
-jchadwick (at) uchicago.edu **\|** [resume](/files/resume.pdf) **\|** [Github](https://github.com/jasonchadwick/) **\|** [LinkedIn](https://linkedin.com/in/jasonchadwick) **\|** [Scholar](https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en) **\|** [ORCiD](https://orcid.org/0000-0002-7932-1418)
+jchadwick (at) uchicago.edu
+
+<a href="/files/resume.pdf">resume</a> 
+| <a href="https://github.com/jasonchadwick/" target="_blank" rel="noopener noreferrer">Github</a>
+| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
 </center>
 
 ---
@@ -10,10 +16,14 @@ jchadwick (at) uchicago.edu **\|** [resume](/files/resume.pdf) **\|** [Github](h
 I will begin pursuing a computer science Ph.D. at the University of Chicago in September, studying quantum computer architecture. I graduated from Carnegie Mellon University in 2022 with a B.S. in physics and a minor in computer science. My interests within quantum computing include compilation, multi-valued logic, optimal control, and neutral atom devices. Other interests include video game design, biking, and playing guitar.
 </center>
 
-<center>
-**Jump to:
-[Projects](#projects) | [Publications](#publications) | [Programming Languages](#programming-languages)**
-</center>
+<br>
+
+<center><b>
+Jump to:
+<a href=#projects>Projects</a> 
+| <a href=#publications>Publications</a>
+| <a href=#programming-languages>Programming languages</a>
+</b></center>
 
 ## Projects
 
