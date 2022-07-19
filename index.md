@@ -1,6 +1,6 @@
 <center>
 jchadwick (at) uchicago.edu
-
+<br>
 <a href="/files/resume.pdf">resume</a> 
 | <a href="https://github.com/jasonchadwick/" target="_blank" rel="noopener noreferrer">Github</a>
 | <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -20,9 +20,9 @@ I will begin pursuing a computer science Ph.D. at the University of Chicago in S
 
 <center><b>
 Jump to:
-<a href=#projects>Projects</a> 
-| <a href=#publications>Publications</a>
-| <a href=#programming-languages>Programming languages</a>
+<a href="#projects">Projects</a> 
+| <a href="#publications">Publications</a>
+| <a href="#programming-languages">Programming languages</a>
 </b></center>
 
 ## Projects
