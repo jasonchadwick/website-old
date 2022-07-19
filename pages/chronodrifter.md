@@ -21,17 +21,17 @@ I began the project in the summer of 2021 and resumed working on it that winter 
 
 ---
 
-Each time-reversible object maintains a stack of previous states. A new state is pushed to this stack at every forward time interval. When time is reversed, states are popped off the stack and applied to the object. For example, the blocks in the gif above have a state consisting of their position, velocity, rotation, and angular velocity. When time is moving in reverse, the block will set its position to the position value of the previous state, and will set its velocity to the negative of its previous velocity (because it moves backwards).
+Each time-reversible object maintains a stack of previous states. A new state is pushed to this stack at every forward time interval. When time is reversed, states are popped off the stack and applied to the object. For example, the blocks in the gif above have a state consisting of their position, velocity, rotation, and angular velocity. When time is moving in reverse, the block will pop a state off the history stack, set its position to the position value of the previous state, and set its velocity to the negative of the previous state velocity.
 
-For performance reasons, this stack is actually implemented as a fixed-size array with space to hold an hour of states.
+For performance reasons, this stack is actually implemented as a fixed-size array with enough space to hold an hour of states.
 
 ### Slowing down time
 
 ---
 
-Slowing down time when moving forward is fairly straightforward: for a slowdown of (e.g.) 10x, decrease all velocities and forces by 10x, and only save every 10th state to the state history stack.
+Unity will not allow the fundamental time step to change, so to slow down time by (e.g.) 10x, we must decrease all velocities and forces by 10x, and only save every 10th state to the state history stack.
 
-When time is simultaneously slowed down **and** reversed, there will only be a new state to pop off the stack once every 10 timesteps. In between, we will need to peek at this upcoming state and linearly interpolate between the previous state and this new state. When time is sped back up again partway through this cycle, the state currently jumps to the state that it was slowly interpolating towards. In the future I intend to try out the approach of waiting until the next state is reached to speed back up to normal. This may cause noticable latency (update interval is 20ms, so the maximum wait time would be 200ms), and if so I will revert to the current method.
+When time is simultaneously slowed down **and** reversed, there will only be a new state to pop off the stack once every 10 timesteps. In between, we will need to peek at this upcoming state and linearly interpolate between the previous state and this new state. When time is sped back up again partway through this cycle, the state jumps to the state that it was slowly interpolating towards. In the future I intend to try out the approach of waiting until the next state is reached to speed back up to normal. This may cause noticable latency (update interval is 20ms, so the maximum wait time would be 200ms), and if so I will revert to the current method.
 
 ### Future plans for the game
 
@@ -49,9 +49,9 @@ Together with collaborators, I hope to continue adding new levels and mechanics.
 
 Stretch goals:
 - 3D version!
-- level creation system for community-made levels levels
-- multiple timelines at once
+- level creation system for community-made levels
+- support for multiple timelines at once
 
-I hope you enjoy the game! Feel free to post an issue on Github or send an email if you find a bug or have a cool idea for the game.
+Feel free to post an issue on Github or send an email if you find a bug or have a cool idea for the game.
 
 [← back to home](../index.md)

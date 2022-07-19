@@ -4,6 +4,8 @@
 
 In the summer of 2021, I began research with the <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a> group at the University of Chicago (I will now be starting a Ph.D. there in September) working under advisor Fred Chong. My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing (spoiler alert: it looks like it does!).
 
+This project has led to a poster at QIP 2022 and publications at <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">QCE 2022</a> and ASPLOS 2023 *(under review)*.
+
 ### High radix quantum computation
 
 ---
@@ -14,10 +16,10 @@ In particular, a 4-state qudit (or *ququart*) can completely encode the informat
 
 Qubit A state | Qubit B state | Ququart state
 --- | --- | ---
-0 | 0 | 0
-0 | 1 | 1
-1 | 0 | 2
-1 | 1 | 3
+$\ket{0}$ | $\ket{0}$ | $\ket{0}$
+$\ket{0}$ | $\ket{1}$ | $\ket{1}$
+$\ket{1}$ | $\ket{0}$ | $\ket{2}$
+$\ket{1}$ | $\ket{1}$ | $\ket{3}$
 
 This encoding process can be done in the middle of a quantum circuit, transferring all information of the original two qubits into one of them after promoting it to a ququart and leaving the other qubit as an *ancilla*, an unused bit that is useful in certain quantum computations to hold intermediate data.
 
@@ -41,7 +43,7 @@ Previously, the EPiQC research group had found several theoretical improvements 
 
 While exploring various qudit gates, we found that a single-ququart gate that swapped the states 2 and 3, known as the X<sub>23</sub> gate, could be performed almost as fast as a standard single-qubit NOT gate (i.e. very fast). Interestingly, if the ququart is thought of as an encoding of 2 qubits together, this X<sub>23</sub> gate performs a CNOT between the two encoded qubits, switching the populations of the "10" and "11" states of the ququart, since a CNOT swaps the 0 and 1 states of the target qubit when the control qubit is in state 1.
 
-This "internal CNOT" gate is around 10x faster than running a standard CNOT on two qubits, meaning that for certain quantum circuits, careful use of ququarts in intermediate steps could lead to improvements in **both** time (faster running circuits) and space (using fewer physical qudits, due to qudit-ququart compression).
+For a typical IBM-style transmon system, this "internal CNOT" gate is around 10x faster than running a standard CNOT on two qubits, meaning that for certain quantum circuits, careful use of ququarts in intermediate steps could lead to improvements in both time (faster-running circuits) *and* space (using fewer physical qudits, due to qudit-ququart compression).
 
 ### Current and future work
 

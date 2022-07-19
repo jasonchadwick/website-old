@@ -57,12 +57,14 @@ Target A: 6
 Target B: 5
       0.0   0.0   0.0
    0.0   0.0   0.0   0.0
-0.0   0.0   0.5   0.0   1.0  <-- tile number 5 was flipped
-   1.0   1.0   1.0   1.0
+0.0   0.0   0.5   0.0   1.0  <-- tile 5 was flipped
+   1.0   1.0   1.0   1.0         because tile 6 is 1
       1.0   1.0   1.0
 
 _______________________________________________
-...Player 0 makes 2 more moves...
+...
+...(Player 0 makes 2 more moves)
+...
 _______________________________________________
 Player 1's turn.
 Hand:
@@ -80,7 +82,9 @@ H gate  --> 0.5   0.0   0.5   0.0   1.0
 applied to     1.0   1.0   1.0   1.0
                   1.0   1.0   1.0
 _______________________________________________
-...Player 1 makes 2 more moves...
+...
+...Player 1 makes 2 more moves
+...
 _______________________________________________
 Player 0's turn...
 ```
@@ -89,35 +93,29 @@ Player 0's turn...
 
 ---
 
-In quantum mechanics terms, the game is in a superposition of 2^(ntiles-1) possible states, each of which has a "probability amplitude" that is
-related to the probability of that particular state being observed when the board is "measured". Current state of game is stored as a sparse 
-array containing a probability amplitude (a complex number) for each nonzero-amplitude states. Mathematically, operations are unitary matrices on the entire space, but are treated 
-as a series of conditionals in the code. For example, CNOT(0, 1) is a CNOT gate with the 0 tile as control and the 1 tile as target, meaning that it flips the 0th bit when the 1st bit has value 1, and does nothing when the 1st bit has value 0. Any states that have the bit patterns |10....> or |11....> will have their amplitudes swapped with each other, because the bit with index 1 is on.
+In quantum mechanics terms, the game is in a superposition of $2^{n}$ possible states, each of which has a "probability amplitude" that is related to the probability of that particular state being observed when the board is "measured". Current state of game is stored as a sparse array containing a probability amplitude (a complex number) for each nonzero-amplitude state. Mathematically, operations are $2^{n}$ x $2^{n}$ unitary matrices on the entire space. For example, CNOT(0, 1) is a CNOT gate with the 0 tile as control and the 1 tile as target, meaning that it flips the 0th bit when the 1st bit has value 1, and does nothing when the 1st bit has value 0. Any states that have the bit patterns $\ket{10....}$ or $\ket{11....}$ will have their amplitudes swapped with each other, because the bit with index 1 is on.
 
 ### Qudits
 
 ---
 
-What about more than 2 players?
-In quantum computing, "qubits" with more than 2 states are known as qudits (for 3-state
-systems, they are called qutrits). n qudits that each have d states can represent d^n
-total possible "board-states" (ex: 2 qudits of 3 states each can represent the following
-8 states: 00, 01, 02, 10, 11, 12, 20, 21, 22). This game could be implemented using qutrits
-to allow for 3 players to play together, with each player aiming to get the qutrits into
-a different expected state.
+What about more than 2 players (more than 2 possible states per tile)? In quantum computing, "qubits" with more than 2 states are known as qu*dits*. $n$ qudits that each have $d$ states can represent $d^n$ total possible "board-states" (ex: 2 qudits with 3 states each can represent the following 8 states: $\ket{00}$, $\ket{01}$, $\ket{02}$, $\ket{10}$, $\ket{11}$, $\ket{12}$, $\ket{20}$, $\ket{21}$, $\ket{22}$). This game could be implemented using qutrits to allow for 3 players to play together, with each player aiming to get all qutrits into a different expected state.
 
 ### TODO
 
 ---
 
-- win condition = make [0,0,0,...,0] the most probable state, instead of counting sum of probabilities
+- allow for operations to be inserted earlier in the program - i.e. have multiple "layers" of the board, and you can choose which layer to put an operation onto
 - in-game tutorial/info on each of the cards
+- in-game explanation of the basics of QC - make it accessible!
 - work on game balancing (game currently works, but isn't very fun)
-- make an android app in unity!
-    - graphics
-    - kotlin?
-    - online multiplayer
+- make an android/iOS/web app in unity!
     - singleplayer puzzle campaign (slowly introduce different gates)
+    - online multiplayer??
     - AI offline opponent
+- different board types corresponding to different quantum architectures (different connectivities and native gates)
+   - transmon: nearest-neighbor, CNOT
+   - neutral atom: interaction radius, CZ, can't place a gate within a certain radius of the previously-placed gate (if on the same layer)
+   - trapped ion: all-to-all, MS gate (maybe this is too complex?)
 
 [← back to home](../index.md)

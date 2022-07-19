@@ -2,9 +2,9 @@
 
 # Neural networks for fusion plasma prediction
 
-In the summer of 2020, I worked with Dan Boyer at the Princeton Plasma Physics Laboratory (PPPL) to create a neural network for predicting fusion plasma properties in real time, for use in fusion reactor control systems. The neural network was successful, achieving high accuracy with extremely fast execution times, and we published our work in *Nuclear Fusion* (<a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">doi.org/10.1088/1741-4326/abe08b</a>).
+In the summer of 2020, I worked with Dan Boyer at the Princeton Plasma Physics Laboratory (PPPL) to create a neural network for predicting fusion plasma properties in real time, for use in fusion reactor control systems. The neural network was successful, achieving high accuracy with extremely fast execution times.
 
-My poster for the 2020 APS DPP meeting can be found [here](/files/fusion-poster.pdf), and more detailed slides [here](/files/fusion-slides.pdf).
+My poster for the 2020 APS DPP meeting can be found [here](/files/fusion-poster.pdf), and more detailed slides [here](/files/fusion-slides.pdf). We published our work in *Nuclear Fusion* (<a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">doi.org/10.1088/1741-4326/abe08b</a>).
 
 ### Tokamak reactors and control systems
 

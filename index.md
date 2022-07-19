@@ -2,11 +2,16 @@ jchadwick (at) uchicago.edu **\|** [resume](/files/resume.pdf) **\|** [Github](h
 
 ---
 
-<img style="float: left; width: 21%; margin-right: 15px; margin-top: 10px" src="files/portrait.jpg">
+<img style="margin-left: 30%; width: 40%; margin-bottom: 20px" src="files/portrait-circle.png">
 
-I will begin pursuing a computer science Ph.D. at the University of Chicago in September, studying quantum computer architecture. I graduated from Carnegie Mellon University in 2022 with a B.S. in physics and a minor in computer science. My interests within quantum computing include compilation, multi-valued logic, optimal control, and neutral atoms. My other interests include video game design, biking, and playing guitar.
+<center>
+I will begin pursuing a computer science Ph.D. at the University of Chicago in September, studying quantum computer architecture. I graduated from Carnegie Mellon University in 2022 with a B.S. in physics and a minor in computer science. My interests within quantum computing include compilation, multi-valued logic, optimal control, and neutral atom devices. Other interests include video game design, biking, and playing guitar.
+</center>
 
-<br clear="left"/>
+**<center>
+Jump to:
+[Projects](#projects) | [Publications](#publications) | [Programming Languages](#programming-languages)**
+</center>
 
 ## Projects
 
@@ -14,36 +19,41 @@ I will begin pursuing a computer science Ph.D. at the University of Chicago in S
 
 #### Academic
 
-[**qudit optimal control**](/pages/qudit-pulses.md) (summer 2021 - present): Found control pulses that allow for significantly faster high-radix quantum logic gates, opening the door to new qudit-based circuit optimizations.
+- [**qudit optimal control**](/pages/qudit-pulses.md) (summer 2021 - present): Found control pulses that allow for significantly faster-than-expected high-radix quantum logic gates, opening the door to new qudit-based circuit optimizations.
 
-[**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems.
+- [**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems.
 
-[**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings.
+- [**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings.
 
 #### Personal
 
-[**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
+- [**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
 
-[**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles.
+- [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles.
 
 ## Publications
 
 *\* indicates equal contribution*
 
-- *(under review)* Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction. A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*
-<br>(see [quantum optimal control](/pages/qudit-pulses.md) for more info)
+- *(under review)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
+<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*
+<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
-- *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">Time-Efficient Qudit Gates through Incremental Pulse Re-seeding.</a> L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
-<br>(see [quantum optimal control](/pages/qudit-pulses.md) for more info)
+- *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">**Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**</a>
+<br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
+<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
-- [Synthesizing Efficient Pulses for Practical Qudit Circuits.](/files/QIP-2022.pdf) J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650.*
-<br>(see [quantum optimal control](/pages/qudit-pulses.md) for more info)
+- [**Synthesizing Efficient Pulses for Practical Qudit Circuits**](/files/QIP-2022.pdf) 
+<br>J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650.*
+<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
-- <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">Prediction of electron density and pressure profile shapes on NSTX-U using neural networks.</a> M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024.* (2021) 
-<br>(see [fusion neural network](/pages/fusion.md) for more info)
+- <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">**Prediction of electron density and pressure profile shapes on NSTX-U using neural networks**</a> 
+<br>M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024.* (2021) 
+<br>(project: [fusion neural network](/pages/fusion.md))
 
-- <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer">Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U.</a> **J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*
-<br>(see [fusion neural network](/pages/fusion.md) for more info)
+- <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer">**Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U**</a> 
+<br>**J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*
+<br>(project: [fusion neural network](/pages/fusion.md))
 
 
 
