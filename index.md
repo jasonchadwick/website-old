@@ -1,7 +1,7 @@
 <center>
 jchadwick (at) uchicago.edu
 <br>
-<a href="/files/resume.pdf">resume</a> 
+<a href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a> 
 | <a href="https://github.com/jasonchadwick/" target="_blank" rel="noopener noreferrer">Github</a>
 | <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 | <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
