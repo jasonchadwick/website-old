@@ -7,11 +7,11 @@
 
 jchadwick (at) uchicago.edu
 
-<img style="margin-left: 30%; width: 40%; margin-bottom: 10px;" src="files/portrait-circle.png">
+<img style="margin-left: 30%; width: 40%; margin-bottom: 10px;" src="files/portrait-circle-small.png">
 
 I am an incoming computer science Ph.D. student at the University of Chicago, intending to study quantum computer architecture with professor <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. 
 
-My research focuses on bridging the gap between existing quantum hardware and near-term algorithms. I have worked on projects related to quantum optimal control, multi-valued logic, and compilation. I've recently become interested in neutral atom computers, circuit decomposition, and variational algorithms. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
+My research focuses on bridging the gap between existing/near-term quantum hardware and future quantum algorithms. I have worked on projects related to quantum optimal control, multi-valued logic, and compilation. I've recently become interested in neutral atom computers, circuit decomposition, and variational algorithms. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
 
 Non-academic interests include video game design, biking, and playing guitar.
 
