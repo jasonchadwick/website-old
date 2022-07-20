@@ -2,9 +2,9 @@
 
 # Quantum optimal control for high radix computation
 
-In the summer of 2021, I began research with the <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a> group at the University of Chicago (I will now be starting a Ph.D. there in September) working under advisor Fred Chong. My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing (spoiler alert: it looks like it does!).
+In the summer of 2021, I began research with the <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a> group at the University of Chicago (I will now be starting a Ph.D. there in September) working under advisor Fred Chong. My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing.
 
-This project has led to a poster at QIP 2022 and publications at <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">QCE 2022</a> and ASPLOS 2023 *(under review)*.
+This project has led to a poster at QIP 2022 and publications at <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">QCE 2022</a> and ASPLOS 2023 (under review).
 
 ### High radix quantum computation
 
@@ -16,10 +16,10 @@ In particular, a 4-state qudit (or *ququart*) can completely encode the informat
 
 Qubit A state | Qubit B state | Ququart state
 --- | --- | ---
-$\ket{0}$ | $\ket{0}$ | $\ket{0}$
-$\ket{0}$ | $\ket{1}$ | $\ket{1}$
-$\ket{1}$ | $\ket{0}$ | $\ket{2}$
-$\ket{1}$ | $\ket{1}$ | $\ket{3}$
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 2
+1 | 1 | 3
 
 This encoding process can be done in the middle of a quantum circuit, transferring all information of the original two qubits into one of them after promoting it to a ququart and leaving the other qubit as an *ancilla*, an unused bit that is useful in certain quantum computations to hold intermediate data.
 

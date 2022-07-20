@@ -16,10 +16,7 @@ less than 1 (in which case player 0 has won) or greater than `ntiles-1` (in whic
 
 Tiles are hexagonal (six neighbors), and two-tile cards can only be played on neighboring tiles.
 
-Mathematically, a board of $n$ tiles is described by the superposition of bit vectors $[b_0, b_1, ... b_k]$ where $k=2^n$. Player 0's goal is to make the most probable state become $\ket{00...0}$ while 
-Player 1's goal is to make it become $\ket{11...1}$. This entire game could be described using quantum mechanics and matrices (and it is, in the
-code) - the only thing that the hexagonal board design decides is what possible unitary manipulations are allowed on the bits. In the backend, gameplay creates a quantum computer circuit step by step. So in theory this game could be physically implemented on a quantum computer with 
-each tile being a qubit.
+Mathematically, a board of *n* tiles is described by the superposition of bit vectors <img src="https://render.githubusercontent.com/render/math?math=[b_0, b_1, ... b_k]"> where <img src="https://render.githubusercontent.com/render/math?math=k=2^n">. Player 0's goal is to make the most probable state become <img src="https://render.githubusercontent.com/render/math?math=\ket{00...0}"> while  Player 1's goal is to make it become <img src="https://render.githubusercontent.com/render/math?math=\ket{11...1}">. This entire game could be described using quantum mechanics and matrices (and it is, in the code) - the only thing that the hexagonal board design decides is what possible unitary manipulations are allowed on the bits. In the backend, gameplay creates a quantum computer circuit step by step. In theory, this game could be physically implemented on a quantum computer, with each tile being a qubit.
 
 ### Gameplay example
 
@@ -88,12 +85,6 @@ _______________________________________________
 _______________________________________________
 Player 0's turn...
 ```
-
-### Implementation
-
----
-
-In quantum mechanics terms, the game is in a superposition of $2^{n}$ possible states, each of which has a "probability amplitude" that is related to the probability of that particular state being observed when the board is "measured". Current state of game is stored as a sparse array containing a probability amplitude (a complex number) for each nonzero-amplitude state. Mathematically, operations are $2^{n}$ x $2^{n}$ unitary matrices on the entire space. For example, CNOT(0, 1) is a CNOT gate with the 0 tile as control and the 1 tile as target, meaning that it flips the 0th bit when the 1st bit has value 1, and does nothing when the 1st bit has value 0. Any states that have the bit patterns $\ket{10....}$ or $\ket{11....}$ will have their amplitudes swapped with each other, because the bit with index 1 is on.
 
 ### Qudits
 

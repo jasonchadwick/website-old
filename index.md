@@ -3,20 +3,24 @@
 
 ---
 
-[CV](/files/CV.pdf) \| [Github](https://github.com/jasonchadwick/) \| [LinkedIn](https://linkedin.com/in/jasonchadwick) \| [Scholar](https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en) \| [ORCiD](https://orcid.org/0000-0002-7932-1418)
+[CV](/files/CV.pdf) \| <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> \| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">Linkedin</a> \| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> \| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
 
 jchadwick (at) uchicago.edu
 
 <img style="margin-left: 30%; width: 40%; margin-bottom: 10px;" src="files/portrait-circle.png">
 
-I am an incoming computer science Ph.D. student at the University of Chicago, intending to study quantum computer architecture with professor Fred Chong. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. Within quantum computing I have worked on projects related to quantum optimal control, multi-valued logic, and compilation. I've recently become interested in neutral atom computers, variational algorithms, and surface code error correction. Other interests include video game design, biking, and playing guitar.
+I am an incoming computer science Ph.D. student at the University of Chicago, intending to study quantum computer architecture with professor <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. 
+
+My research focuses on bridging the gap between existing quantum hardware and near-term algorithms. I have worked on projects related to quantum optimal control, multi-valued logic, and compilation. I've recently become interested in neutral atom computers, circuit decomposition, and variational algorithms. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
+
+Non-academic interests include video game design, biking, and playing guitar.
 
 **Jump to:
 [Projects](#projects) | [Publications](#publications) | [Programming Languages](#programming-languages)**
 
 ## Projects
 
-*Click a project name to read more. See my [Github](https://github.com/jasonchadwick/) for all public projects.*
+*Click a project name to read more. See my <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> for all public projects.*
 
 #### Academic
 
