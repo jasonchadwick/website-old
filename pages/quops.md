@@ -12,7 +12,7 @@ Each player has a hand of 5 cards, some of which affect a single tile and some o
 
 Tiles are hexagonal (six neighbors), and two-tile cards can only be played on neighboring tiles.
 
-Mathematically, a board of *n* tiles is described by the superposition of bit vectors $$[b_0, b_1, ... b_k]$$ where $k=2^n$. Player 0's goal is to make the most probable state become $\ket{00...0}$ while  Player 1's goal is to make it become $\ket{11...1}$. This entire game could be described using quantum mechanics and matrices (and it is, in the code) - the only thing that the hexagonal board design decides is what possible unitary manipulations are allowed on the bits. In the backend, gameplay creates a quantum computer circuit step by step. In theory, this game could be physically implemented on a quantum computer, with each tile being a qubit.
+Mathematically, a board of *n* tiles is described by the superposition of bit vectors $$[b_0, b_1, ... b_k]$$ where $$k=2^n$$. Player 0's goal is to make the most probable state become $$\ket{00...0}$$ while  Player 1's goal is to make it become $$\ket{11...1}$$. This entire game could be described using quantum mechanics and matrices (and it is, in the code) - the only thing that the hexagonal board design decides is what possible unitary manipulations are allowed on the bits. In the backend, gameplay creates a quantum computer circuit step by step. In theory, this game could be physically implemented on a quantum computer, with each tile being a qubit.
 
 ### Gameplay example
 
@@ -86,7 +86,7 @@ Player 0's turn...
 
 ---
 
-What about more than 2 players (more than 2 possible states per tile)? In quantum computing, "qubits" with more than 2 states are known as qu*dits*. $n$ qudits that each have $d$ states can represent $d^n$ total possible "board-states" (ex: 2 qudits with 3 states each can represent the following 8 states: \[\ket{01}, \ket{02}, \ket{10}, \ket{11}, \ket{12}, \ket{20}, \ket{21}, \ket{22}\]. This game could be implemented using qutrits to allow for 3 players to play together, with each player aiming to get all qutrits into a different expected state.
+What about more than 2 players (more than 2 possible states per tile)? In quantum computing, "qubits" with more than 2 states are known as qu*dits*. $$n$$ qudits that each have $$d$$ states can represent $$d^n$$ total possible "board-states" (ex: 2 qudits with 3 states each can represent the following 8 states: $$\ket{01}, \ket{02}, \ket{10}, \ket{11}, \ket{12}, \ket{20}, \ket{21}, \ket{22}$$). This game could be implemented using qutrits to allow for 3 players to play together, with each player aiming to get all qutrits into a different expected state.
 
 ### TODO
 
