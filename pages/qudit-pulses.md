@@ -16,10 +16,10 @@ In particular, a 4-state qudit (or *ququart*) can completely encode the informat
 
 Qubit A state | Qubit B state | Ququart state
 --- | --- | ---
-0 | 0 | 0
-0 | 1 | 1
-1 | 0 | 2
-1 | 1 | 3
+$\ket{0}$ | $\ket{0}$ | $\ket{0}$
+$\ket{0}$ | $\ket{1}$ | $\ket{1}$
+$\ket{1}$ | $\ket{0}$ | $\ket{2}$
+$\ket{1}$ | $\ket{1}$ | $\ket{3}$
 
 This encoding process can be done in the middle of a quantum circuit, transferring all information of the original two qubits into one of them after promoting it to a ququart and leaving the other qubit as an *ancilla*, an unused bit that is useful in certain quantum computations to hold intermediate data.
 
