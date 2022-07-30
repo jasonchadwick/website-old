@@ -41,23 +41,23 @@ Non-academic interests include video game design, biking, and playing guitar.
 *\* indicates equal contribution*
 
 - *(under review)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
-<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*
+<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*.
 <br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
 - *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">**Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**</a>
-<br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*
+<br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*.
 <br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
 - [**Synthesizing Efficient Pulses for Practical Qudit Circuits**](/files/QIP-2022.pdf) 
-<br>J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650.*
+<br>J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650*.
 <br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
 - <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">**Prediction of electron density and pressure profile shapes on NSTX-U using neural networks**</a> 
-<br>M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024.* (2021) 
+<br>M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024* (2021).
 <br>(project: [fusion neural network](/pages/fusion.md))
 
 - <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer">**Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U**</a> 
-<br>**J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*
+<br>**J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*.
 <br>(project: [fusion neural network](/pages/fusion.md))
 
 
