@@ -74,3 +74,5 @@ I have worked on personal and academic projects in:
 - **C:** projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
 
 I have experience in various others such as Java/JavaScript, SML, Bash, and Mathematica.
+
+<div style="height:0.5vh"></div>
