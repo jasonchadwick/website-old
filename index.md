@@ -75,4 +75,4 @@ I have worked on personal and academic projects in:
 
 I have experience in various others such as Java/JavaScript, SML, Bash, and Mathematica.
 
-<div style="height:0.5vh"></div>
+<div style="height:400px"></div>
