@@ -1,3 +1,7 @@
+---
+title: | Cosmic strings
+---
+
 [← back to home](../index.md)
 
 # Cosmic string research

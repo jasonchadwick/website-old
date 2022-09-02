@@ -1,3 +1,7 @@
+---
+title: | Multi-controlled gate decomposition
+---
+
 [← back to home](../index.md)
 
 # Decomposing arbitrary unitaries into multi-controlled X gates

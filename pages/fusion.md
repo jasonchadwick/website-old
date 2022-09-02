@@ -1,3 +1,7 @@
+---
+title: | Neural networks for fusion energy
+---
+
 [← back to home](../index.md)
 
 # Neural networks for fusion plasma prediction

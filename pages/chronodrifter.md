@@ -1,3 +1,7 @@
+---
+title: | Chronodrifter
+---
+
 [← back to home](../index.md)
 
 # Chronodrifter: a 2D time-manipulation puzzle platformer

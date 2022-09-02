@@ -1,6 +1,5 @@
 ---
-tags: test
-title: Jason Chadwick | Home
+title: | Quantum computing PhD student
 ---
 
 ---

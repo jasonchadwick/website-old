@@ -1,3 +1,7 @@
+---
+title: | Qudit optimal control
+---
+
 [← back to home](../index.md)
 
 # Quantum optimal control for high radix computation

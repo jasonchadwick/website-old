@@ -1,3 +1,7 @@
+---
+title: | Quops game
+---
+
 [← back to home](../index.md)
 
 # Quops: a board game inspired by quantum mechanics
