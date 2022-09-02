@@ -1,5 +1,5 @@
 ---
-title: | Quops game
+title: "Project: Quops game"
 ---
 
 [← back to home](../index.md)

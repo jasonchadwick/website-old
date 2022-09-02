@@ -1,5 +1,5 @@
 ---
-title: | Cosmic strings
+title: "Project: cosmic strings"
 ---
 
 [← back to home](../index.md)

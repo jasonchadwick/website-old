@@ -1,6 +1,5 @@
 ---
-title: "quantum computing PhD student"
-name: Jchadwick
+title: "Home"
 ---
 
 ---

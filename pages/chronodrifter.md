@@ -1,5 +1,5 @@
 ---
-title: | Chronodrifter
+title: "Project: Chronodrifter"
 ---
 
 [← back to home](../index.md)

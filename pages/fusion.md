@@ -1,5 +1,5 @@
 ---
-title: | Neural networks for fusion energy
+title: "Project: neural networks for fusion energy"
 ---
 
 [← back to home](../index.md)

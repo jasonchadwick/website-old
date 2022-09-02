@@ -1,5 +1,5 @@
 ---
-title: | Qudit optimal control
+title: "Project: qudit optimal control"
 ---
 
 [← back to home](../index.md)

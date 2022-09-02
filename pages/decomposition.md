@@ -1,5 +1,5 @@
 ---
-title: | Multi-controlled gate decomposition
+title: "Project: multi-controlled gate decomposition"
 ---
 
 [← back to home](../index.md)
