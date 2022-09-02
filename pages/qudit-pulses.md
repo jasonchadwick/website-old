@@ -1,5 +1,5 @@
 ---
-title: "Project: qudit optimal control"
+title: "Quantum optimal control for high radix computation"
 ---
 
 [← back to home](../index.md)

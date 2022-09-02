@@ -1,5 +1,5 @@
 ---
-title: "Project: Chronodrifter"
+title: "Chronodrifter: a 2D time-manipulation puzzle platformer"
 ---
 
 [← back to home](../index.md)

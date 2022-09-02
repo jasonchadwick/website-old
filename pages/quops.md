@@ -1,5 +1,5 @@
 ---
-title: "Project: Quops game"
+title: "Quops: a board game inspired by quantum mechanics"
 ---
 
 [← back to home](../index.md)

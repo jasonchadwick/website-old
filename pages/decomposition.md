@@ -1,5 +1,5 @@
 ---
-title: "Project: multi-controlled gate decomposition"
+title: "Decomposing arbitrary unitaries into multi-controlled X gates"
 ---
 
 [← back to home](../index.md)
