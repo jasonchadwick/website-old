@@ -1,5 +1,6 @@
 ---
-title: &#124; quantum computing PhD student
+title: "quantum computing PhD student"
+name: Jchadwick
 ---
 
 ---
