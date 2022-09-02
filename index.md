@@ -1,5 +1,5 @@
 ---
-title: | Quantum computing PhD student
+title: "| Quantum computing PhD student"
 ---
 
 ---
