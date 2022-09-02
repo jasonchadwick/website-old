@@ -1,5 +1,5 @@
 ---
-title: "| Quantum computing PhD student"
+title: &#124; quantum computing PhD student
 ---
 
 ---
