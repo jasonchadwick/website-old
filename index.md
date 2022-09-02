@@ -1,7 +1,8 @@
-
 ---
 tags: test
 title: Jason Chadwick | Home
+---
+
 ---
 
 [CV](/files/CV.pdf) \| <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> \| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">Linkedin</a> \| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> \| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
