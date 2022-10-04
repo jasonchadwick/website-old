@@ -6,15 +6,13 @@ title: "Home"
 
 [CV](/files/CV.pdf) \| <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> \| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">Linkedin</a> \| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> \| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
 
-jchadwick (at) uchicago.edu
+jchadwick@uchicago.edu
 
 <img style="margin-left: 30%; width: 40%; margin-bottom: 10px;" src="files/portrait-circle-small.png">
 
-I am an incoming computer science Ph.D. student at the University of Chicago, intending to study quantum computer architecture with professor <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. 
+I am a first-year computer science Ph.D. student at the University of Chicago studying quantum computer architecture with advisor <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. 
 
-My research focuses on bridging the gap between existing/near-term quantum hardware and future quantum algorithms. I have worked on projects related to quantum optimal control, multi-valued logic, and compilation. I've recently become interested in neutral atom computers, circuit decomposition, and variational algorithms. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
-
-Non-academic interests include video game design, biking, and playing guitar.
+My research focuses on boosting the capabilities of near-term quantum hardware through hardware-software co-design. I have worked on projects related to quantum optimal control, multi-valued logic, and quantum circuit compilation. I've recently become interested in error mitigation and control theory. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
 
 **Jump to:
 [Projects](#projects) | [Publications](#publications) | [Programming Languages](#programming-languages)**
@@ -41,11 +39,11 @@ Non-academic interests include video game design, biking, and playing guitar.
 
 *\* indicates equal contribution*
 
-- *(under review)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
+- *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
 <br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*.
 <br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
-- *(to appear)* <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">**Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**</a>
+- <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">**Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**</a>
 <br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*.
 <br>(project: [quantum optimal control](/pages/qudit-pulses.md))
 
