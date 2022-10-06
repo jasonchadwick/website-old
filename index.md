@@ -12,28 +12,10 @@ jchadwick@uchicago.edu
 
 I am a first-year computer science Ph.D. student at the University of Chicago studying quantum computer architecture with advisor <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. 
 
-My research focuses on boosting the capabilities of near-term quantum hardware through hardware-software co-design. I have worked on projects related to quantum optimal control, multi-valued logic, and quantum circuit compilation. I've recently become interested in error mitigation and control theory. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
+My research focuses on low-level software optimizations that narrow the gap between existing error-prone hardware and long-term goals of large scale fault-tolerant quantum computation. I have worked on projects related to quantum optimal control, high-radix computation, and circuit compilation. I've recently become interested in error mitigation and closed-loop control. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
 
 **Jump to:
-[Projects](#projects) | [Publications](#publications) | [Programming Languages](#programming-languages)**
-
-## Projects
-
-*Click a project name to read more. See my <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> for all public projects.*
-
-#### Academic
-
-- [**qudit optimal control**](/pages/qudit-pulses.md) (summer 2021 - present): Found control pulses that allow for significantly faster-than-expected high-radix quantum logic gates, opening the door to new qudit-based circuit optimizations.
-
-- [**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems.
-
-- [**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings.
-
-#### Personal
-
-- [**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
-
-- [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles.
+[Publications](#publications) | [Projects](#projects) | [Programming Languages](#programming-languages)**
 
 ## Publications
 
@@ -59,7 +41,23 @@ My research focuses on boosting the capabilities of near-term quantum hardware t
 <br>**J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*.
 <br>(project: [fusion neural network](/pages/fusion.md))
 
+## Projects
 
+*Click a project name to read more. See my <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> for all public projects.*
+
+#### Academic
+
+- [**qudit optimal control**](/pages/qudit-pulses.md) (summer 2021 - present): Found control pulses that allow for significantly faster-than-expected high-radix quantum logic gates, opening the door to new qudit-based circuit optimizations.
+
+- [**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems.
+
+- [**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings.
+
+#### Personal
+
+- [**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
+
+- [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles.
 
 ## Programming Languages
 
