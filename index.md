@@ -6,7 +6,7 @@ title: "Home"
 
 [CV](/files/CV.pdf) \| <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> \| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">Linkedin</a> \| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> \| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
 
-jchadwick@uchicago.edu
+[jchadwick@uchicago.edu](mailto:jchadwick@uchicago.edu)
 
 <img style="margin-left: 30%; width: 40%; margin-bottom: 10px;" src="files/portrait-circle-small.png">
 
@@ -17,28 +17,35 @@ My research focuses on low-level software optimizations that narrow the gap betw
 **Jump to:
 [Publications](#publications) | [Projects](#projects) | [Programming Languages](#programming-languages)**
 
-## Publications
+## Selected Publications
 
-*\* indicates equal contribution*
+*\* indicates equal contribution. See [CV](/files/CV.pdf) for a full list of publications.*
 
 - *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
-<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. *ASPLOS 2023*.
-<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
+<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. 
+<br>*ASPLOS 2023*
+<br>(project: [qudit optimal control](/pages/qudit-pulses.md))
 
 - <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">**Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**</a>
-<br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. *QCE 2022*.
-<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
-
-- [**Synthesizing Efficient Pulses for Practical Qudit Circuits**](/files/QIP-2022.pdf) 
-<br>J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. *QIP Poster 2022 #650*.
-<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
+<br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. 
+<br>*QCE 2022*
+<br>(project: [qudit optimal control](/pages/qudit-pulses.md))
 
 - <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">**Prediction of electron density and pressure profile shapes on NSTX-U using neural networks**</a> 
-<br>M.D. Boyer, **J. Chadwick**. *Nuclear Fusion 61 046024* (2021).
+<br>M.D. Boyer, **J. Chadwick**. 
+<br>*Nuclear Fusion 61 046024* (2021)
 <br>(project: [fusion neural network](/pages/fusion.md))
 
+## Posters
+
+- [**Synthesizing Efficient Pulses for Practical Qudit Circuits**](/files/QIP-2022.pdf) 
+<br>J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. 
+<br>*QIP Poster 2022 #650*.
+<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
+
 - <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer">**Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U**</a> 
-<br>**J. Chadwick**, M.D. Boyer. *APS DPP Poster 2020, JP13-022*.
+<br>**J. Chadwick**, M.D. Boyer. 
+<br>*APS DPP Poster 2020, JP13-022*.
 <br>(project: [fusion neural network](/pages/fusion.md))
 
 ## Projects
