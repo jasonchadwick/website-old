@@ -9,7 +9,7 @@ title: "Home"
 [jchadwick@uchicago.edu](mailto:jchadwick@uchicago.edu)
 
 <div style="float: left; width: 30%">
-    <figure style="width: 100%">
+    <figure style="width: 30%">
     <img src="files/portrait-circle-small.png">
     </figure>
 </div>
@@ -28,7 +28,7 @@ title: "Home"
 *\* indicates equal contribution. See [CV](/files/JasonChadwickCV.pdf) for a full list of publications.*
 
 <div style="float:left; width:30%">
-<figure style="width: 100%">
+<figure style="width: 50%">
     <img src="files/paper-pics/mixed-radix.png">
     </figure>
 </div>
