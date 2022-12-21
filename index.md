@@ -4,7 +4,7 @@ title: "Home"
 
 ---
 
-[CV](/files/CV.pdf) \| <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> \| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">Linkedin</a> \| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> \| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
+[CV](/files/JasonChadwickCV.pdf) \| <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> \| <a href="https://linkedin.com/in/jasonchadwick" target="_blank" rel="noopener noreferrer">Linkedin</a> \| <a href="https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a> \| <a href="https://orcid.org/0000-0002-7932-1418" target="_blank" rel="noopener noreferrer">ORCiD</a>
 
 [jchadwick@uchicago.edu](mailto:jchadwick@uchicago.edu)
 
@@ -19,34 +19,33 @@ My research focuses on low-level software optimizations that narrow the gap betw
 
 ## Selected Publications
 
-*\* indicates equal contribution. See [CV](/files/CV.pdf) for a full list of publications.*
+*\* indicates equal contribution. See [CV](/files/JasonChadwickCV.pdf) for a full list of publications.*
 
 - *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
 <br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. 
 <br>*ASPLOS 2023*
-<br>(project: [qudit optimal control](/pages/qudit-pulses.md))
 
-- <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">**Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**</a>
+- **Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**
 <br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. 
 <br>*QCE 2022*
-<br>(project: [qudit optimal control](/pages/qudit-pulses.md))
+<br>DOI: <a href="https://doi.org/10.1109/QCE53715.2022.00051" target="_blank" rel="noopener noreferrer">10.1109/QCE53715.2022.00051</a>
 
-- <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">**Prediction of electron density and pressure profile shapes on NSTX-U using neural networks**</a> 
+- **Prediction of electron density and pressure profile shapes on NSTX-U using neural networks**
 <br>M.D. Boyer, **J. Chadwick**. 
 <br>*Nuclear Fusion 61 046024* (2021)
-<br>(project: [fusion neural network](/pages/fusion.md))
+<br>DOI: <a href="https://doi.org/10.1088/1741-4326/abe08b" target="_blank" rel="noopener noreferrer">10.1088/1741-4326/abe08b</a>
 
 ## Posters
 
-- [**Synthesizing Efficient Pulses for Practical Qudit Circuits**](/files/QIP-2022.pdf) 
+- **Synthesizing Efficient Pulses for Practical Qudit Circuits**
 <br>J. Baker, **J. Chadwick**, L.M. Seifert, A. Litteken, N. Nottingham, A. Petersson, S. Guenther and F.T. Chong. 
 <br>*QIP Poster 2022 #650*.
-<br>(project: [quantum optimal control](/pages/qudit-pulses.md))
+<br>PDF [poster](/files/QIP-2022.pdf)
 
-- <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer">**Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U**</a> 
+- **Machine learning modeling and analysis of density and pressure profiles on NSTX and NSTX-U**
 <br>**J. Chadwick**, M.D. Boyer. 
 <br>*APS DPP Poster 2020, JP13-022*.
-<br>(project: [fusion neural network](/pages/fusion.md))
+<br>PDF [poster](/files/fusion-poster.pdf), PDF [slides](/files/fusion-slides.pdf), conference <a href="https://meetings.aps.org/Meeting/DPP20/Session/JP13.22" target="_blank" rel="noopener noreferrer">link</a>
 
 ## Projects
 
