@@ -8,12 +8,11 @@ title: "Home"
 
 [jchadwick@uchicago.edu](mailto:jchadwick@uchicago.edu)
 
-<div style="float: left; width: 30%">
-    <figure style="width: 30%">
+<div>
+    <figure style="float: left; width: 40%; margin: 15px">
     <img src="files/portrait-circle-small.png">
+    <figcaption style="text-align: center"></figcaption>
     </figure>
-</div>
-<div style="float: right; width:70%">
     <p>
     I am a first-year computer science Ph.D. student at the University of Chicago studying quantum computer systems with <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. Previously, I graduated from Carnegie Mellon University with a B.S. in physics and a minor in computer science. 
     </p>
@@ -21,23 +20,15 @@ title: "Home"
     My research focuses on low-level software optimizations that narrow the gap between existing error-prone hardware and long-term goals of large scale fault-tolerant quantum computation. I have worked on projects related to quantum optimal control, high-radix computation, and circuit compilation. I've recently become interested in error mitigation and closed-loop control. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
     </p>
 </div>
-<div style='clear:both'></div>
+
 
 ## Selected Publications
 
 *\* indicates equal contribution. See [CV](/files/JasonChadwickCV.pdf) for a full list of publications.*
 
-<div style="float:left; width:30%">
-<figure style="width: 50%">
-    <img src="files/paper-pics/mixed-radix.png">
-    </figure>
-</div>
-<div style="float:right; width:70%">
-    *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
-    <br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. 
-    <br>*ASPLOS 2023*
-</div>
-<div style='clear:both'></div>
+- *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
+<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. 
+<br>*ASPLOS 2023*
 
 - **Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**
 <br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. 
