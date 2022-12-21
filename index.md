@@ -8,22 +8,36 @@ title: "Home"
 
 [jchadwick@uchicago.edu](mailto:jchadwick@uchicago.edu)
 
-<img style="margin-left: 30%; width: 40%; margin-bottom: 10px;" src="files/portrait-circle-small.png">
-
-I am a first-year computer science Ph.D. student at the University of Chicago studying quantum computer architecture with advisor <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. I graduated from Carnegie Mellon University in May 2022 with a B.S. in physics and a minor in computer science. 
-
-My research focuses on low-level software optimizations that narrow the gap between existing error-prone hardware and long-term goals of large scale fault-tolerant quantum computation. I have worked on projects related to quantum optimal control, high-radix computation, and circuit compilation. I've recently become interested in error mitigation and closed-loop control. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
-
-**Jump to:
-[Publications](#publications) | [Projects](#projects) | [Programming Languages](#programming-languages)**
+<div style="float: left; width: 30%">
+    <figure style="width: 100%">
+    <img src="files/portrait-circle-small.png">
+    </figure>
+</div>
+<div style="float: right; width:70%">
+    <p>
+    I am a first-year computer science Ph.D. student at the University of Chicago studying quantum computer systems with <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. Previously, I graduated from Carnegie Mellon University with a B.S. in physics and a minor in computer science. 
+    </p>
+    <p>
+    My research focuses on low-level software optimizations that narrow the gap between existing error-prone hardware and long-term goals of large scale fault-tolerant quantum computation. I have worked on projects related to quantum optimal control, high-radix computation, and circuit compilation. I've recently become interested in error mitigation and closed-loop control. My work is part of <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a>, an NSF Expedition in Computing.
+    </p>
+</div>
+<div style='clear:both'></div>
 
 ## Selected Publications
 
 *\* indicates equal contribution. See [CV](/files/JasonChadwickCV.pdf) for a full list of publications.*
 
-- *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
-<br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. 
-<br>*ASPLOS 2023*
+<div style="float:left; width:30%">
+<figure style="width: 100%">
+    <img src="files/paper-pics/mixed-radix.png">
+    </figure>
+</div>
+<div style="float:right; width:70%">
+    *(to appear)* **Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction**
+    <br>A. Litteken, L.M. Seifert, **J. Chadwick**, N. Nottingham, J.M. Baker, F.T. Chong. 
+    <br>*ASPLOS 2023*
+</div>
+<div style='clear:both'></div>
 
 - **Time-Efficient Qudit Gates through Incremental Pulse Re-seeding**
 <br>L.M. Seifert\*, **J. Chadwick**\*, A. Litteken, F.T. Chong, and J.M. Baker. 
@@ -51,31 +65,12 @@ My research focuses on low-level software optimizations that narrow the gap betw
 
 *Click a project name to read more. See my <a href="https://github.com/jasonchadwick" target="_blank" rel="noopener noreferrer">Github</a> for all public projects.*
 
-#### Academic
-
-- [**qudit optimal control**](/pages/qudit-pulses.md) (summer 2021 - present): Found control pulses that allow for significantly faster-than-expected high-radix quantum logic gates, opening the door to new qudit-based circuit optimizations.
-
 - [**neural network for fusion plasma prediction**](/pages/fusion.md) (summer 2020 research): created a neural network with TensorFlow that can reliably predict fusion plasma density and pressure using only real-time-accessible measurements, for use in control systems.
 
 - [**cosmic string research**](/pages/cosmic-strings.md) (summer 2019 research): simulated the time evolution and gravitational wave emissions of cosmic strings.
 
-#### Personal
-
 - [**chronodrifter**](/pages/chronodrifter.md): a 2D puzzle game where the player can change the direction of time. A live WebGL version of the game is hosted at <a href="https://placeholder-studios-dev.github.io/chronodrifter" target="_blank" rel="noopener noreferrer">placeholder-studios-dev.github.io/chronodrifter</a>.
 
 - [**quops**](/pages/quops.md): a checkers-like board game inspired by quantum computing, where moves consist of applying quantum logic gates to adjacent tiles.
-
-## Programming Languages
-
-I have worked on personal and academic projects in:
-
-- **Julia:** [quantum optimal control](/pages/qudit-pulses.md).
-- **Python:** [fusion neural network](/pages/fusion.md), [quops game](/pages/quops.md).
-- **C#/Unity:** [chronodrifter game](/pages/chronodrifter.md), quops - graphical edition *(coming soon)*.
-- **Common Lisp:** [cosmic strings](/pages/cosmic-strings.md).
-- **C++:** projects for Discrete Differential Geometry course, implementing foundational computer graphics algorithms on simplicial complexes.
-- **C:** projects for Computer Systems course, including an implementation of malloc, a unix shell, and a web proxy.
-
-I have experience in various others such as Java/JavaScript, SML, Bash, and Mathematica.
 
 <div style="height:400px"></div>
