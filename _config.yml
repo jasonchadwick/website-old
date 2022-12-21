@@ -1,5 +1,4 @@
-#theme: jekyll-theme-slate
-remote_theme: mmistakes/minimal-mistakes
+theme: jekyll-theme-slate
 name: Jason Chadwick
 title: Jason Chadwick
 plugins:
